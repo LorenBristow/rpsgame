@@ -1,0 +1,93 @@
+#hero {
+  background: url("../images/rps.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  margin-bottom: 0px;
+  text-shadow: #144853 0.3em 0.3em 0.3em;
+  border: #144853 solid 3px;
+  height: 400px;
+}
+
+body {
+background-color: #144853
+}
+
+button {
+  margin: 2%;
+}
+
+#hero:hover{
+  background: url("../images/rps.gif") no-repeat center center;
+  background-size: cover;
+  color: white;
+  margin-bottom: 0px;
+  text-shadow: #144853 0.3em 0.3em 0.3em;
+  border: #144853 solid 3px;
+  height: 400px;
+}
+
+#play {
+  color: white;
+  text-shadow: yellow 0.3em 0.3em 0.3em;
+}
+
+.display-3 {
+  font-size: 3em;
+  margin: 0;
+}
+
+@media screen and (min-width:560px) {
+  .display-3 {
+    font-size: 4em;}
+  }
+
+@media screen and (min-width:768px) {
+    .display- {
+    font-size: 5em;}
+  }
+
+  .display-4 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  @media screen and (min-width:560px) {
+    .display-4 {
+      font-size: 3.5em;}
+    }
+
+  @media screen and (min-width:768px) {
+      .display-4 {
+      font-size: 4em;}
+    }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button:hover {
+border: yellow solid 4px;
+}
+
+.button.active {
+border: yellow solid 4px;
+}
+
+.container-fluid#play {
+  background-color: #144853;
+  color: white;
+}
+
+#play_you {
+  color: yellow;
+}
+
+#fun_verdict {
+  color: orange;
+}
+
+#play_machine {
+  color: yellow;
+}
