@@ -83,6 +83,11 @@ function whoWins(you, machine) {
   }
 }
 
+$("button").on("click", function() {
+   $("body").scrollTop(0);
+});
+
+
 
 // Old Code
 /*  if ( verdict == 'win') {
